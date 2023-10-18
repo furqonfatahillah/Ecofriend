@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Lato&family=Montserrat:wght@400;700&family=Nunito+Sans:opsz@6..12&family=Plus+Jakarta+Sans:wght@400;600;800&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #737373;
+}
+
+nav h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 250px;
+  color: #10b981;
+  font-size: 30px;
+}
+
+nav button {
+  width: 70px;
+  border: none;
+  height: 32px;
+  background-color: #10b981;
+  border-radius: 4px;
+  margin-left: 250px;
+}
+
+nav button a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #10b981;
+  cursor: pointer;
+}
+
+nav button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#event {
+  color: #10b981;
+}
+
+.event {
+  width: 97.5vw;
+  height: 200vh;
+}
+
+.event .content1 {
+  gap: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 100vh;
+}
+
+.event .header {
+  width: 100%;
+  height: 54px;
+  background-color: #10b981;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event .card1,
+.card2,
+.card3 {
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 480px;
+  width: 413px;
+  border-radius: 10px;
+  background-color: #ecfdf5;
+}
+
+.event .card1 .deskripsi,
+.card2 .deskripsi,
+.card3 .deskripsi {
+  margin-top: 20px;
+  width: 85%;
+  height: auto;
+}
+.event .deskripsi {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.event .card1 p,
+.card2 p,
+.card3 p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+.event .card1 button,
+.card2 button,
+.card3 button {
+  background-color: #10b981;
+  border: none;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 373px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.event .card1 button:hover,
+.card2 button:hover,
+.card3 button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+section {
+  height: 75%;
+}
+
+.event section ul li {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+/* Add numbers to pagination buttons by CSS */
+.splide__pagination {
+  gap: 60px;
+  counter-reset: pagination-num;
+}
+
+.splide__pagination__page:before {
+  border-radius: 5px;
+  color: white;
+  padding: 12px;
+  padding-inline: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  counter-increment: pagination-num;
+  content: counter(pagination-num);
+  background-color: #10b981;
+}
+
+.content2 {
+  gap: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: auto;
+}
+
+.content2 .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  display: flex;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}

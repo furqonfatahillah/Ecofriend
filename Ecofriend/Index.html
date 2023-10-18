@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <title>Ecofriend</title>
+  </head>
+  <body>
+    <div class="home">
+      <nav>
+        <h2>Ecofriend</h2>
+        <ul>
+          <li><a id="home" href="Index.html">Beranda</a></li>
+          <li><a id="publication" href="publication.html">Publikasi</a></li>
+          <li><a id="community" href="community.html">komunitas</a></li>
+          <li><a id="ecotourism" href="ecotourism.html">Ekowisata</a></li>
+          <li><a id="event" href="event.html">Acara</a></li>
+        </ul>
+        <button type="button"><a href="login.html">Masuk</a></button>
+      </nav>
+      <div class="content1">
+        <div class="image">
+          <img src="img/image 59.png" alt="kebakaran hutan" />
+        </div>
+        <div class="deskripsi">
+          <div class="header">
+            <p>Sedang Tren</p>
+            <div class="like-share-bookmark">
+                <button>
+                  <i id="like" onclick="tekanlike()" class="bi bi-suit-heart-fill"></i>
+                </button>
+              <button><a href="whatsapp://send?text=URL Artikel" style="text-decoration: none;"><i class="bi bi-box-arrow-up"></i></a></button>
+              <button>
+                <i
+                  id="bookmark"
+                  onclick="tekanbookmark()"
+                  class="bi bi-bookmark-fill"
+                ></i>
+              </button>
+            </div>
+          </div>
+          <div class="title">
+            <h1>
+              Kebakaran Bromo: Calon pengantin minta maaf, ‘kejadian tidak
+              sengaja’
+            </h1>
+            <p>
+              Permohonan maaf disampaikan HP secara langsung kepada sejumlah
+              tokoh masyarakat Tengger, Ketua Dukun Paruman Tengger, Sutomo,
+              serta tiga kepala desa yang mewakili enam desa.
+            </p>
+          </div>
+          <div class="time">
+            <div class="hours">
+              <h6>2 jam yang lalu</h6>
+            </div>
+            <div class="minute">
+              <p>Oleh Lucy Hiddleston  |  4 menit membaca</p>
+            </div>
+          </div>
+          <div class="continue-reading">
+            <button>LANJUT MEMBACA</button>
+          </div>
+        </div>
+      </div>
+      <div class="content2">
+        <div class="latest-news">
+          <div class="header">
+            <h3>Berita Terkini</h3>
+          </div>
+          <div class="card">
+            <div class="card1">
+              <img src="img/th 2.png" alt="polusi" />
+              <div class="deskripsi">
+                <h4>
+                  Indonesia masuk 'enam negara paling berkontribusi terhadap
+                  polusi udara global'
+                </h4>
+                <p>
+                  Sementara, sejumlah kelompok masyarakat sipil berencana
+                  melayangkan gugatan perwakilan kelompok alias class action
+                  karena masalah polusi udara yang dinilai semakin memburuk.
+                </p>
+                <div class="time">
+                  <div class="hours">
+                    <p>1 jam yang lalu</p>
+                  </div>
+                  <div class="minute">
+                    <p>Oleh Lucy Hiddleston | 4 menit</p>
+                    <p>membaca</p>
+                  </div>
+                </div>
+                <hr />
+                <div class="like-share-bookmark">
+                  <button><i id="like-card1" onclick="tekanlike()" class="bi bi-suit-heart-fill"></i></i></button>
+                  <button><a href="whatsapp://send?text=URL Artikel" style="text-decoration: none;"><i class="bi bi-box-arrow-up"></i></a></button>
+                  <button><i id="bookmark-card1" onclick="tekanbookmark()" class="bi bi-bookmark-fill"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <img src="img/Mask Group.png" alt="polusi" />
+              <div class="deskripsi">
+                <h4>
+                  Daerah di Indonesia terpapar gelombang 'panas ekstrem',
+                  bagaimana kondisi negara Asia lainnya?
+                </h4>
+                <p>
+                  Sejumlah daerah di Indonesia akan menghadapi 'panas ekstrem'
+                  dalam puncak fenomena El Nino pada Agustus-Oktober 2023, kata
+                  BMKG.
+                </p>
+                <div class="time">
+                  <div class="hours">
+                    <p>1 jam yang lalu</p>
+                  </div>
+                  <div class="minute">
+                    <p>Oleh Caroline Casey | 4 menit</p>
+                    <p>membaca</p>
+                  </div>
+                </div>
+                <hr />
+                <div class="like-share-bookmark">
+                  <button><i id="like-card2" onclick="tekanlike()" class="bi bi-suit-heart-fill"></i></button>
+                  <button><a  href="whatsapp://send?text=URL Artikel" style="text-decoration: none;"><i class="bi bi-box-arrow-up"></i></a></button>
+                  <button><i id="bookmark-card2" onclick="tekanbookmark()" class="bi bi-bookmark-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trending-news">
+          <div class="header">
+            <h2>Sedang Tren</h2>
+          </div>
+          <div class="news">
+            <div class="news1">
+              <img src="img/race-hose 1.png" alt="gletser" />
+              <div class="time">
+                <p>Race98 - 03 Juni 2023</p>
+                <h3>
+                  Pemanasan global: Gletser Gunung Everest mencair, Nepal
+                  relokasi kamp pendakian
+                </h3>
+                <div class="deskripsi">
+                  <p>
+                    Nepal sedang menyiapkan pemindahan kamp pendakian Gunung
+                    Everest karena gletser gunung tersebut mencair
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="news2">
+              <img
+                src="img/cyclist-leads-actionfront-view-man-riding-bicycle-racing-road 1.png"
+                alt="plastik"
+              />
+              <div class="time">
+                <p>Jony.Ls - 03 Juni 2023</p>
+                <h3>Apa yang terjadi jika kita berhenti menggunakan plastik</h3>
+                <div class="deskripsi">
+                  <p>
+                    Dari 8.300 juta ton plastik murni yang diproduksi hingga
+                    akhir tahun 2015, terdapat 6.300 juta tonnya telah dibuang.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="news3">
+              <img
+                src="img/empty-boxing-arena-waiting-new-round-d-render-illustration 1.png"
+                alt="kebakaran"
+              />
+              <div class="time">
+                <p>King.F - 03 Juni 2023</p>
+                <h3>
+                  Perubahan iklim: Suhu tertinggi Arktika di kawasan Kutub Utara
+                  lebih panas dari Jakarta dan Surabaya
+                </h3>
+                <div class="deskripsi">
+                  <p>
+                    Boxing star Ryan Garcia and his promoter, Hall of Fame
+                    fighter Oscar De La Hoya, reignited their war of words via
+                    Twitter on
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content3">
+        <div class="header">
+          <h3>Artikel Pendidikan</h3>
+        </div>
+        <br>
+        <div class="article">
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="article1">
+                    <div class="img">
+                      
+                      <img src="img/image 62.png" alt="" />
+                      <div class="like-share-bookmark">
+                        <button><i id="like-card1" onclick="tekanlike()" class="bi bi-suit-heart-fill"></i></i></button>
+                        <button><a href="whatsapp://send?text=URL Artikel" style="text-decoration: none;"><i class="bi bi-box-arrow-up"></i></a></button>
+                        <button><i id="bookmark-card1" onclick="tekanbookmark()" class="bi bi-bookmark-fill"></i></button>
+                      </div>
+
+                      
+                    </div>
+                    <div class="deskripsi">
+                      <h3>
+                        Kaca atau plastik: Mana yang lebih ramah lingkungan?
+                      </h3>
+                      <p>
+                        Selama berabad-abad kita telah menggunakan kaca untuk
+                        menyimpan makanan, minuman, bahan kimia, dan kosmetik.
+                        Apakah sudah waktunya untuk menemukan alternatif yang
+                        lebih berkelanjutan.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="article2">
+                    <img src="img/image 52.png" alt="" />
+                    <div class="deskripsi">
+                      <h3>
+                        Cara Mudah Mengurangi Penggunaan Plastik untuk
+                        Selamatkan Bumi
+                      </h3>
+                      <p>
+                        Sebagai cara mengurangi sampah plastik, belilah kantong
+                        yang besar dan kuat untuk membantu mengurangi jumlah
+                        sampah plastik.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="article2">
+                    <img src="img/image 52.png" alt="" />
+                    <div class="deskripsi">
+                      <h3>
+                        Cara Mudah Mengurangi Penggunaan Plastik untuk
+                        Selamatkan Bumi
+                      </h3>
+                      <p>
+                        Sebagai cara mengurangi sampah plastik, belilah kantong
+                        yang besar dan kuat untuk membantu mengurangi jumlah
+                        sampah plastik.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="article2">
+                    <img src="img/image 52.png" alt="" />
+                    <div class="deskripsi">
+                      <h3>
+                        Cara Mudah Mengurangi Penggunaan Plastik untuk
+                        Selamatkan Bumi
+                      </h3>
+                      <p>
+                        Sebagai cara mengurangi sampah plastik, belilah kantong
+                        yang besar dan kuat untuk membantu mengurangi jumlah
+                        sampah plastik.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="article2">
+                    <img src="img/image 52.png" alt="" />
+                    <div class="deskripsi">
+                      <h3>
+                        Cara Mudah Mengurangi Penggunaan Plastik untuk
+                        Selamatkan Bumi
+                      </h3>
+                      <p>
+                        Sebagai cara mengurangi sampah plastik, belilah kantong
+                        yang besar dan kuat untuk membantu mengurangi jumlah
+                        sampah plastik.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="article2">
+                    <img src="img/image 52.png" alt="" />
+                    <div class="deskripsi">
+                      <h3>
+                        Cara Mudah Mengurangi Penggunaan Plastik untuk
+                        Selamatkan Bumi
+                      </h3>
+                      <p>
+                        Sebagai cara mengurangi sampah plastik, belilah kantong
+                        yang besar dan kuat untuk membantu mengurangi jumlah
+                        sampah plastik.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <footer>
+          <h3>Ecofriend 2023</h3>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide(".splide");
+      splide.mount();
+    </script>
+    <script>
+        let like = document.getElementById("like");
+        let likeCard1 = document.getElementById("like-card1");
+        let likeCard2 = document.getElementById("like-card2");
+        
+        like.addEventListener("click", function(){
+          if (like.style.color == "red") {
+            like.style.color = "silver";
+          } else{
+            like.style.color = "red"
+          }
+        })
+
+
+        likeCard1.addEventListener("click", function(){
+          if (likeCard1.style.color == "red") {
+            likeCard1.style.color = "silver";
+          } else{
+            likeCard1.style.color = "red";
+          }
+        })
+
+        likeCard2.addEventListener("click", function(){
+          if (likeCard2.style.color == "red") {
+            likeCard2.style.color = "silver";
+          } else{
+            likeCard2.style.color = "red";
+          }
+        })
+
+        let bookmark = document.getElementById("bookmark");
+
+        let bookmarkCard1 = document.getElementById("bookmark-card1");
+        let bookmarkCard2 = document.getElementById("bookmark-card2");
+
+
+        bookmark.addEventListener("click", function(){
+          if(bookmark.style.color == "yellow"){
+            bookmark.style.color = "silver";
+          } else{
+            bookmark.style.color="yellow";
+          }
+        })
+
+        bookmarkCard1.addEventListener("click", function(){
+          if(bookmarkCard1.style.color == "yellow"){
+            bookmarkCard1.style.color = "silver";
+          } else{
+            bookmarkCard1.style.color="yellow";
+          }
+        })
+
+        bookmarkCard2.addEventListener("click", function(){
+          if(bookmarkCard2.style.color == "yellow"){
+            bookmarkCard2.style.color = "silver";
+          } else{
+            bookmarkCard2.style.color="yellow";
+          }
+        })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Lato&family=Nunito+Sans:opsz@6..12&family=Plus+Jakarta+Sans:wght@400;600;800&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #737373;
+}
+
+nav h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 250px;
+  color: #10b981;
+  font-size: 30px;
+}
+
+nav button {
+  width: 70px;
+  border: none;
+  height: 32px;
+  background-color: #10b981;
+  border-radius: 4px;
+  margin-left: 250px;
+}
+
+nav button a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #10b981;
+  cursor: pointer;
+}
+
+nav button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+nav ul li #home {
+  color: #10b981;
+}
+
+.home {
+  height: 250vh;
+  width: 97.5vw;
+}
+
+.home .content1 {
+  padding: 20px;
+  display: flex;
+  width: initial;
+  height: 80vh;
+}
+
+.home .content1 .image {
+  width: 60%;
+  height: 100%;
+}
+
+.home .content1 .image img {
+  width: 100%;
+  height: 90%;
+  margin-top: 50px;
+}
+.home .content1 .deskripsi {
+  width: 40%;
+  height: auto;
+  padding: 100px;
+}
+
+.home .content1 .deskripsi .header {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.home .content1 .deskripsi .header p {
+  display: flex;
+  align-self: flex-start;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #10b981;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.home .content1 .deskripsi .header .like-share-bookmark {
+  display: flex;
+  align-self: flex-end;
+  gap: 20px;
+}
+
+.home .content1 .deskripsi .header button {
+  background: none;
+  border: none;
+}
+
+.home .content1 .deskripsi .header button:hover {
+  cursor: pointer;
+}
+
+.home .content1 .deskripsi .title h1 {
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  color: #2a2a2a;
+}
+
+.home .content1 .deskripsi .title p {
+  font-family: "Lato", sans-serif;
+  color: #2a2a2a;
+  margin-top: 25px;
+}
+
+.home .content1 .deskripsi .time {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+.home .content1 .deskripsi .time .hours {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+}
+
+.home .content1 .deskripsi .time .hours {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 60%;
+}
+
+.home .content1 .deskripsi .time .minute {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+.home .content1 .deskripsi .continue-reading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.home .content1 .deskripsi .continue-reading button {
+  width: 215px;
+  height: 51px;
+  background-color: #10b981;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+}
+.home .content1 .deskripsi .continue-reading button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.home .content2 {
+  gap: 30px;
+  display: flex;
+  padding: 20px;
+  height: 87vh;
+  width: initial;
+}
+
+.home .content2 .latest-news {
+  width: 65%;
+  height: 100%;
+}
+
+.home .content2 .trending-news {
+  width: 35%;
+  height: 100%;
+}
+
+.home .content2 .latest-news .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 8%;
+  background-color: #10b981;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.home .content2 .latest-news .card {
+  display: flex;
+  gap: 40px;
+  width: initial;
+  height: 550px;
+  padding-top: 20px;
+}
+
+.home .content2 .latest-news .card .card1,
+.card2 {
+  width: 420px;
+  height: 520px;
+  background-color: white;
+  box-shadow: 0.1px 0.1px 9px 0.1px #888888;
+}
+
+.home .content2 .latest-news .card1 .deskripsi,
+.card2 .deskripsi {
+  padding: 20px;
+}
+
+.home .content2 .latest-news .card1 .deskripsi h4,
+.card2 h4 {
+  font-family: "IBM Plex Serif", serif;
+  margin-bottom: 20px;
+}
+
+.home .content2 .latest-news .card1 .deskripsi p,
+.card2 .deskripsi p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.home i {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  color: silver;
+}
+.home .content2 .card .like-share-bookmark {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.home .content2 .card .like-share-bookmark button {
+  margin-top: 20px;
+  background: none;
+  border: none;
+}
+
+.home .content2 .card .like-share-bookmark button:hover {
+  cursor: pointer;
+}
+
+.home .content2 .card .card1 .deskripsi .time,
+.card2 .deskripsi .time {
+  display: flex;
+  margin-top: 25px;
+  width: 400px;
+  height: 50px;
+  align-items: center;
+}
+.home .content2 .card .card1 .deskripsi .time .hours,
+.card2 .deskripsi .time .hours {
+  width: 28%;
+  font-weight: 400;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.home .content2 .card .card1 .deskripsi .time .hours,
+.card2 .deskripsi .time .hours {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+}
+
+.home .content2 .card .card1 .deskripsi .time .minute,
+.card2 .deskripsi .time .minute {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+.home .content2 .card .card1 .deskripsi .time hr,
+.card2 .deskripsi .time hr {
+  size: 10px;
+}
+
+.home .content2 .trending-news {
+  height: 580px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ecfdf5;
+}
+
+.home .content2 .trending-news .news {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.home .content2 .trending-news h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+}
+
+.home .content2 .trending-news .news .news1,
+.news2,
+.news3 {
+  gap: 20px;
+  display: flex;
+  height: auto;
+  padding: 5px;
+}
+
+.home .content2 .trending-news .news .news1 img,
+.news2 img,
+.news3 img {
+  width: 160px;
+  height: 160px;
+}
+
+.home .content2 .trending-news .news .news1 .time p,
+.news2 .time p,
+.news3 .time p {
+  width: 130px;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.home .content2 .trending-news .news .news1 h3,
+.news2 h3,
+.news3 h3 {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.home .content2 .trending-news .news .news1 .time p,
+.news2 .time p,
+.news3 .time p {
+  width: 110px;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+  font-size: 12px;
+}
+
+.home .content2 .trending-news .news .news1 .time .deskripsi p,
+.news2 .time .deskripsi p,
+.news3 .time .deskripsi p {
+  width: 190px;
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+  font-size: 10px;
+}
+
+.home .content3 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.home .content3 .header {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.home .content3 section ul li {
+  display: flex;
+  gap: 20px;
+}
+.home .content3 section ul li .article1,
+.article2 {
+  display: flex;
+  width: 50%;
+}
+
+.home .content3 section ul li .article1 img,
+.article2 img {
+  z-index: -99;
+}
+
+.home .content3 section ul li .article1 .deskripsi,
+.article2 .deskripsi {
+  width: 100%;
+  padding: 15px;
+}
+
+.home .content3 section ul li .article1 .deskripsi h3,
+.article2 .deskripsi h3 {
+  margin-bottom: 10px;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.home .content3 section ul li .article1 .deskripsi p,
+.article2 .deskripsi p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.home .content3 .article1 .img {
+  width: 70%;
+  height: 100%;
+}
+
+.home .content3 .article1 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  display: flex;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.content3 .article1 .like-share-bookmark {
+  display: flex;
+}

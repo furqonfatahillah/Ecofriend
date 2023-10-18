@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Lato&family=Nunito+Sans:opsz@6..12&family=Plus+Jakarta+Sans:wght@400;600;800&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100.6%;
+  height: 122%;
+  margin-left: -10px;
+  background-image: url(img/login/mountainous-landscape-with-fog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+  z-index: -99;
+}
+
+nav {
+  background-color: #fafafa;
+  padding: 10px;
+  display: flex;
+  width: 98.66%;
+  height: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 99;
+}
+
+nav h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 250px;
+  margin-left: 60px;
+  color: #10b981;
+  font-size: 30px;
+}
+
+.register {
+  width: 97.5vw;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-login {
+  padding: 50px;
+  border: 1px #d4d4d4 solid;
+  border-radius: 8px;
+  width: 414px;
+  height: auto;
+  margin-top: 20px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-login .header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-login h2 {
+  color: #10b981;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container-login form {
+  margin-left: 50px;
+  width: 77%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-login label {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container-login input {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  height: 35px;
+  border: 2px #d4d4d4 solid;
+  border-radius: 8px;
+}
+
+.container-login input::placeholder {
+  color: #d4d4d4;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-left: 10px;
+}
+
+.container-login button {
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #10b981;
+  border: none;
+  margin-top: 40px;
+}
+
+.container-login button a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+}
+
+.container-login button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.register .new-account {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.register .new-account p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 17px;
+}
+
+.register .new-account a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #10b981;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}

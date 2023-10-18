@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Lato&family=Nunito+Sans:opsz@6..12&family=Plus+Jakarta+Sans:wght@400;600;800&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #737373;
+}
+
+nav h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 230px;
+  color: #10b981;
+  font-size: 30px;
+}
+
+nav .foto-profile {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #10b981;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  border-radius: 4px;
+  margin-left: 230px;
+}
+
+nav button a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #10b981;
+  cursor: pointer;
+}
+
+nav button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.profile {
+  height: 73vh;
+  width: 97.5vw;
+}
+
+.profile .header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 1420px;
+  height: 60px;
+  background-color: #ecfdf5;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-left: 40px;
+}
+
+.profile .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  padding-left: 40px;
+  width: 305px;
+  height: 100%;
+  color: #737373;
+}
+
+#header {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#tabsDiv ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#tabsDiv li {
+  width: 100%;
+  height: 60px;
+}
+
+#tabsDiv button {
+  border: none;
+  float: left;
+  height: 38px;
+  border-radius: 8px;
+}
+
+/* Button to open the content */
+#tabsDiv button {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  background-color: inherit;
+  color: #737373;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Button styling on mouse hover */
+#tabsDiv li button:hover {
+  background-color: #10b981;
+  color: white;
+  opacity: 0.9;
+}
+
+#tabsDiv button.active {
+  color: white;
+  background-color: #10b981;
+}
+
+/* Content for tabs*/
+#interview {
+  margin-left: 150px;
+  position: absolute;
+  left: 18%;
+  width: 955px;
+  height: 356px;
+  background-color: #ecfdf5;
+}
+
+.contentClass .container-upload {
+  background-color: white;
+  left: 50%;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 8px;
+  width: 305px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px dashed black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  color: #10b981;
+  font-size: 48px;
+  padding: 15px;
+  gap: 40px;
+}
+
+#tabsDiv .contentClass .container-upload button {
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tabsDiv .contentClass .container-upload button {
+  text-decoration: none;
+  color: white;
+}
+
+#practice {
+  display: flex;
+  margin-left: 150px;
+  position: absolute;
+  left: 18%;
+  width: 955px;
+  height: 760px;
+  background-color: #ecfdf5;
+  padding: 20px;
+}
+
+#practice .header {
+  width: 94.7%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: transparent;
+}
+
+#practice .header h4 {
+  color: black;
+}
+
+#practice .content {
+  background-color: white;
+  border: 1px dashed black;
+  height: 684px;
+  margin-top: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 15px;
+}
+
+#practice .content .kelola1 {
+  display: flex;
+  gap: 40px;
+  width: 97%;
+  height: max-content;
+  border-radius: 8px;
+  background: rgb(21, 161, 115, 0.15);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#practice .content .kelola1 .deskripsi {
+  width: 216px;
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: 105px;
+}
+
+#practice .content .kelola1 .deskripsi .icon {
+  color: white;
+  margin-top: 13px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#practice .content .kelola1 .deskripsi i {
+  background-color: #10b981;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+#practice .content .kelola1 .deskripsi i:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#practice .content .kelola1 .status {
+  background: rgb(16, 185, 129, 0.1);
+  color: 1px solid;
+  width: 330px;
+  height: 50px;
+  border-radius: 8px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+#practice .content .kelola1 .status .visibilitas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: max-content;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+#practice .content .kelola1 .status .visibilitas .status1 {
+  display: flex;
+  gap: 5px;
+}
+
+#practice .content .kelola1 .status select {
+  border: none;
+  background-color: transparent;
+  font-size: small;
+}
+
+#practice .content .kelola1 .status .tanggal {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: max-content;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+#practice .content .kelola1 .status .tanggal .status2 p {
+  font-weight: 600;
+  font-size: small;
+}
+
+#practice .content .kelola1 .status .penayangan {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: max-content;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+#practice .content .kelola1 .status .penayangan .status3 p {
+  font-weight: 600;
+  font-size: small;
+}
+
+#practice .content .kelola1 .status .status-desk {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: max-content;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+}
+
+#practice .content .kelola1 .status .status-desk .status4 p {
+  font-weight: 600;
+  font-size: small;
+}
+
+#interview .container-upload1 {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 8px;
+  width: 836px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px dashed black;
+  padding: 15px;
+  gap: 40px;
+}
+
+#interview img {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+#interview .container-upload1 label {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #10b981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 32px;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#interview .input-desk {
+  width: 850px;
+  height: 480px;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#interview .input-desk textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px dashed black;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  padding: 0px 5px 0px 5px;
+  border-radius: 8px;
+}
+
+#interview .input-desk textarea::placeholder {
+  font-size: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  padding-left: 40%;
+  padding-top: 28%;
+}
+
+#interview #submit {
+  background-color: #10b981;
+  border: none;
+  color: #fafafa;
+  width: 265px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 37%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+}
+
+#interview #submit:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#interview {
+  height: max-content;
+}
+.status1 i {
+  width: max-content;
+}
